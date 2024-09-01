@@ -1,0 +1,276 @@
+29/08/2024, 16:23:34 := Gatwick Short Stay North 5 - amenity: parking
+t + 0 seconds           Gatwick Police Station - amenity: police
+(speed=0)               Sofitel Gatwick - tourism: hotel
+(altitude=0)            Premier Inn London Gatwick Airport (A23) - tourism: hotel
+                        Gatwick Airport Fire Station - amenity: fire_station
+                        Riverside Park - park
+                        Car Park 6 - amenity: parking
+                        "Y" Car Park - amenity: parking
+                        "J" Car Park - amenity: parking
+                        Premier Inn Gatwick North Terminal - tourism: hotel
+                        London Gatwick Airport - Airport. undefined
+                        Hampton by Hilton London Gatwick Airport - tourism: hotel
+                        Riverside Garden Park - park
+
+29/08/2024, 16:54:56 := The Leith Hill Practice - amenity: doctors
+t + 31 minutes          
+(speed=221)             
+(altitude=3000)         
+
+29/08/2024, 16:58:16 := Edenbridge and Oxted Show - Car Park - amenity: parking
+t + 34 minutes          
+(speed=296)             
+(altitude=10550)        
+
+29/08/2024, 16:59:19 := Wild Bean Cafe - amenity: cafe
+t + 35 minutes          Costa - amenity: cafe
+(speed=360)             Costa - amenity: cafe
+(altitude=11900)        
+
+29/08/2024, 17:00:13 := Patient and visitor parking - amenity: parking
+t + 36 minutes          Patient and visitor parking - amenity: parking
+(speed=380)             Tugmutton Common - park
+(altitude=13325)        Ravens Wood School - amenity: school
+                        Bromley Bus Garage - amenity: bus_garage
+                        McDonald's - amenity: fast_food
+                        Green Parks House Car Park - amenity: parking
+                        Staff parking - amenity: parking
+                        Princess Royal University Hospital - amenity: hospital
+                        Disabled parking - amenity: parking
+                        Ambulance only - amenity: parking
+                        Farnborough Common - park
+                        Hollydale Recreation Grounds - park
+                        Cyprianis - amenity: restaurant
+                        The British Queen - amenity: pub
+                        St Michael & All Angels - amenity: place_of_worship
+                        Black Horse - amenity: pub
+                        Chapter One - amenity: restaurant
+
+29/08/2024, 17:01:34 := Brampton Park - park
+t + 38 minutes          New City Primary School - amenity: school
+(speed=417)             Cumberland Community School - amenity: school
+(altitude=16250)        Newham University Hospital - amenity: hospital
+                        Roman Road Primary School - amenity: school
+                        Beckton Parkside - place: neighbourhood
+                        Ellen Wilkinson Primary School - amenity: school
+                        North Beckton Primary School - amenity: school
+                        St Mark's Church - amenity: place_of_worship
+                        Asda Beckton - amenity: parking
+                        Scott Wilkie Primary School - amenity: school
+                        Calverton Primary School - amenity: school
+                        Will Thorne Pavilion - amenity: dressing_room
+                        West Beckton Health Centre - amenity: clinic
+                        Fleetwood Court - place: neighbourhood
+                        East Ham Fire Station - amenity: fire_station
+                        King George V Park - park
+                        Brampton Manor Academy - amenity: school
+                        Will Thorne Pavilion Car Park - amenity: parking
+                        Coborn Centre for Adolescent Mental Health - amenity: hospital
+                        Kingsford Community School - amenity: school
+                        Brampton Primary School - amenity: school
+                        Manor Farm Care Home - amenity: social_facility
+                        St Mary Magdalene - amenity: place_of_worship
+                        Beckton Bus Station - amenity: bus_station
+                        Beckton & Royal Docks Children's Centre - amenity: kindergarten
+                        Lighthouse Christian Fellowship - amenity: place_of_worship
+                        Jasper City School - amenity: school
+                        Learningsure College - amenity: school
+                        Prayer Hall - amenity: place_of_worship
+                        Catch 22 - amenity: fast_food
+                        King Rooster - amenity: fast_food
+
+29/08/2024, 17:02:21 := Ray Park - park
+t + 38 minutes          Whitbread Playing Fields - park
+(speed=414)             West Hatch High School - amenity: school
+(altitude=18250)        Roding Primary School - amenity: school
+                        Ray Lodge Primary School - amenity: school
+                        Claybury Park - park
+                        St Paul's Woodford Bridge - amenity: place_of_worship
+                        Essex - Greater London - Edge of Essex - Greater London. pop. n/a
+                        River Roding - Edge of River Roding. pop. n/a
+                        River Roding - Edge of River Roding. pop. n/a
+                        Essex - Greater London - Edge of Essex - Greater London. pop. n/a
+                        Essex - Greater London - Edge of Essex - Greater London. pop. n/a
+                        Essex - Greater London - Edge of Essex - Greater London. pop. n/a
+                        Essex - Greater London - Edge of Essex - Greater London. pop. n/a
+                        Essex - Greater London - Edge of Essex - Greater London. pop. n/a
+                        Essex - Greater London - Edge of Essex - Greater London. pop. n/a
+                        Essex - Greater London - Edge of Essex - Greater London. pop. n/a
+                        Guide Dogs Regional Centre South East - amenity: animal_training
+                        Three Jolly Wheelers - amenity: pub
+                        Travelodge - tourism: hotel
+
+29/08/2024, 17:03:34 := St Laurence - amenity: place_of_worship
+t + 40 minutes          The Broxbourne School - amenity: school
+(speed=409)             
+(altitude=20950)        
+
+29/08/2024, 17:05:43 := Esso - amenity: fuel
+t + 42 minutes          Letchworth - place: town
+(speed=430)             
+(altitude=24775)        
+
+29/08/2024, 17:07:55 := Puddleducks Nursery - amenity: kindergarten
+t + 44 minutes          St Denys (Colmworth Parish Church) - amenity: place_of_worship
+(speed=453)             Colmworth Brook - Edge of Colmworth Brook. pop. n/a
+(altitude=27775)        Colmworth Brook - Edge of Colmworth Brook. pop. n/a
+
+29/08/2024, 17:10:08 := Lyveden - tourism: attraction
+t + 46 minutes          
+(speed=457)             
+(altitude=30300)        
+
+29/08/2024, 17:11:14 := Bisbrooke: St John the Baptist - amenity: place_of_worship
+t + 47 minutes          
+(speed=456)             
+(altitude=31775)        
+
+29/08/2024, 17:13:24 := Pool - water: pond
+t + 49 minutes          Canal - water: pond
+(speed=456)             Serpent - water: pond
+(altitude=34200)        Stock Pond - water: pond
+                        Brook - water: pond
+                        Lagoon - water: pond
+                        Reef - water: pond
+                        Marina - water: pond
+                        Ocean - water: pond
+                        Oasis - water: pond
+                        Harbour - water: pond
+
+29/08/2024, 17:14:31 := Harlequin - place: suburb
+t + 50 minutes          South Nottinghamshire Academy - amenity: school
+(speed=456)             Radcliffe-on-Trent Infant and Nursery School - amenity: school
+(altitude=35300)        Tea at Maria's - amenity: cafe
+
+29/08/2024, 17:15:37 := Papplewick Pumping Station - tourism: museum
+t + 52 minutes          
+(speed=455)             
+(altitude=36300)        
+
+29/08/2024, 17:16:44 := New Houghton Millennium Green - park
+t + 53 minutes          New Houghton WMC - amenity: community_centre
+(speed=450)             New Houghton Community Centre - amenity: community_centre
+(altitude=37300)        New Houghton - place: village
+
+29/08/2024, 17:17:48 := Renishaw Park - park
+t + 54 minutes          Gosber street carpark - amenity: parking
+(speed=449)             Market street carpark - amenity: parking
+(altitude=38000)        Eckington Junior School - amenity: school
+                        Birk Hill Infant & Nursery School - amenity: school
+                        Eckinton Libary Parking - amenity: parking
+                        Eckington Civic Centre - amenity: townhall
+                        Eckington Library and Information Centre - amenity: library
+                        The George - amenity: pub
+                        Bupa Dental Care - amenity: dentist
+                        Corner Playhouse - amenity: theatre
+                        Peak Pharmacy - amenity: pharmacy
+                        Eckington Medical Practice - amenity: doctors
+                        Eckington Youth Centre - amenity: community_centre
+                        The Rose & Crown - amenity: pub
+                        Eckington Friendship Hall - amenity: place_of_worship
+                        Eckington Miners Recreation Club - amenity: community_centre
+                        Jet - amenity: fuel
+                        Dragon Inn - amenity: fast_food
+                        Popeye’s 2 - amenity: fast_food
+                        Peak Pharmacy - amenity: pharmacy
+                        Bilals - amenity: restaurant
+
+29/08/2024, 17:18:51 := Northern General Hospital - amenity: hospital
+t + 55 minutes          Longley Park - park
+(speed=450)             E-ACT Pathways Academy - amenity: school
+(altitude=38025)        Church On the Corner - amenity: place_of_worship
+                        Longley Avenue West Household Waste Recycling Centre - amenity: recycling
+                        Watercliffe Meadow Community Primary School - amenity: school
+                        Shirecliffe Community Centre - amenity: community_centre
+                        Busk Meadow Park - park
+                        Norwood Grange Care Home - amenity: social_facility
+                        Norwood Medical Centre - amenity: doctors
+                        Longley Park View - amenity: social_facility
+                        St. Leonard's Church - amenity: place_of_worship
+                        Southey Library - amenity: library
+                        Longley Four Greens Community Centre - amenity: community_centre
+                        Cafe Express - amenity: cafe
+                        Bean n Gone - amenity: cafe
+                        Southey Green Medical Centre - amenity: doctors
+                        St Bernard & St Cecilia - amenity: place_of_worship
+                        Southey Green Primary School and Nurseries - amenity: school
+                        Parson Cross Park - park
+                        Oasis Academy Watermead - amenity: school
+                        Devonshire Arms - amenity: pub
+                        Herries Lodge - amenity: social_facility
+                        Norwood Post Office - amenity: post_office
+                        Norwood Fish Bar - amenity: fast_food
+                        Béres - amenity: fast_food
+                        The Appletree - amenity: fast_food
+                        China Wok - amenity: restaurant
+                        Well Pharmacy - amenity: pharmacy
+                        Well Pharmacy - amenity: pharmacy
+                        Food Ranch - amenity: fast_food
+                        Plaice the Fish - amenity: fast_food
+                        Everest Express - amenity: fast_food
+                        Taste of China - amenity: restaurant
+                        Shirecliffe Fish Bar - amenity: fast_food
+                        Shell - amenity: fuel
+
+29/08/2024, 17:19:57 := Lord Nelson - amenity: pub
+t + 56 minutes          Lord Nelson Car Park - amenity: parking
+(speed=455)             Woodland View Caravan Site - tourism: camp_site
+(altitude=38000)        
+
+29/08/2024, 17:21:04 := St John the Evangelist - amenity: place_of_worship
+t + 57 minutes          
+(speed=456)             
+(altitude=38025)        
+
+29/08/2024, 17:22:08 := Horton Bank Country Park - park
+t + 58 minutes          Jaamiatul Imaam Muhammad Zakaria - amenity: school
+(speed=454)             Mayfield Medical Centre - amenity: doctors
+(altitude=38025)        The Boarshead - amenity: pub
+                        Stocks Lane Primary School - amenity: school
+                        Littlemoor Park - park
+
+29/08/2024, 17:23:12 := River Aire - water: river
+t + 59 minutes          Steeton Primary School - amenity: school
+(speed=450)             
+(altitude=38025)        
+
+29/08/2024, 17:26:29 := old mine workings? - archaeological_site
+t + 1 hr 2 mins         old mine workings? - archaeological_site
+(speed=453)             possible mine workings? - archaeological_site
+(altitude=37650)        old mine workings? - archaeological_site
+                        old mine workings? - archaeological_site
+
+29/08/2024, 17:31:24 := Broomrigg D stone circle - archaeological_site
+t + 1 hr 7 mins         
+(speed=446)             
+(altitude=26775)        
+
+29/08/2024, 17:42:33 := Cranston County Nursery - amenity: kindergarten
+t + 1 hr 18 mins        The Stair Arms Hotel - tourism: hotel
+(speed=290)             Cranston Church - amenity: grave_yard
+(altitude=6925)         Cranstoun Church - amenity: place_of_worship
+
+29/08/2024, 17:43:46 := Prestongrange Church - amenity: place_of_worship
+t + 1 hr 20 mins        Prestonpans Infant and Nursery School - amenity: school
+(speed=247)             The Salvation Army - Prestonpans - amenity: place_of_worship
+(altitude=5175)         
+
+29/08/2024, 17:49:09 := River Almond - water: river
+t + 1 hr 25 mins        Haugh Park - park
+(speed=128)             Cramond Brig - bridge
+(altitude=625)          Cramond New Bridge - bridge
+                        James V - tourism: artwork
+
+29/08/2024, 17:58:08 := Long Stay Car Park - amenity: parking
+t + 1 hr 34 mins        Airport Short Stay - amenity: parking
+(speed=4)               Car Rental Centre - amenity: parking
+(altitude=0)            Airport Short Stay - amenity: parking
+                        Valet Parking - amenity: parking
+                        Hertz - amenity: car_rental
+                        Edinburgh Airport - Airport. undefined
+                        Hampton by Hilton Edinburgh Airport - tourism: hotel
+                        Moxy Edinburgh Airport - tourism: hotel
+                        StaffParking C - amenity: parking
+                        Fast Park - amenity: parking
+                        Mid Stay Car Park - amenity: parking
+
