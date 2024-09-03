@@ -10,13 +10,11 @@ import * as Utils from './utils.js'
 // 1. Run https://github.com/LibreTranslate/LibreTranslate on port 5000
 //    (otherwise, remove ltranslate option around line 98)
 //
-// 2. Use a hacked/updated flight radar module, that returns trail data.
-//    a) Use my fork https://github.com/MarquisdeGeek/flightradar24-client
-//    b) Go to line 89-ish of 'lib/flight.js' in the module and add, 'trail: d.trail,')
+// 2. Use my fork (https://github.com/MarquisdeGeek/flightradar24-client) of flight radar module, that returns trail data.
 
 
 // Specific the ID
-const flightID = `36ddb3c6`;
+const flightID = `36e9026e`;
 
 // How to get this flight ID:
 // 1. Visit https://www.flightradar24.com/
@@ -59,7 +57,8 @@ async function main(id) {
     // Note the delay and waitDuration to stop flooding the server
     let waitDuration = 0;
     let unresolvedPromises = await flightData.map(async (pos) => {
-        let area = Utils.getSurroundArea(pos.lat, pos.lng, mapAreaRadius);
+
+        let area = Utils.getSurroundArea(pos.latitude, pos.longitude, mapAreaRadius);
         let cachedData = await apiMapping.getGetMapDataCache(area);
 
         if (cachedData) {
@@ -82,9 +81,9 @@ async function main(id) {
     flightPoints = flightPoints.map((data) => {
         return {
             time: data.flight.tst,      // human-friendly time
-            timestamp: data.flight.ts,  // in seconds
-            airSpeed: data.flight.spd,
-            altitude: data.flight.alt,
+            timestamp: data.flight.timestamp,  // in seconds
+            airSpeed: data.flight.speed,
+            altitude: data.flight.altitude,
             //
             interests: osmFilterMapData(data.map, data.flight, filterOptions)
         }
@@ -98,6 +97,7 @@ async function main(id) {
         translator: ltranslate
     });
 
+
     const startTime = flightPoints ? flightPoints[0].timestamp : 0;
     reportData.forEach((toShow) => {
         report.showEntry(startTime, toShow);
@@ -106,21 +106,27 @@ async function main(id) {
 
 
 async function ltranslate(text, destLang) {
+    try {
+        const res = await fetch("http://localhost:5000/translate", {
+            method: "POST",
+            body: JSON.stringify({
+                q: text,
+                source: "auto",
+                target: destLang,
+                format: "text",
+                alternatives: 3,
+                api_key: ""
+            }),
+            headers: { "Content-Type": "application/json" }
+        });
 
-    const res = await fetch("http://localhost:5000/translate", {
-        method: "POST",
-        body: JSON.stringify({
-            q: text,
-            source: "auto",
-            target: destLang,
-            format: "text",
-            alternatives: 3,
-            api_key: ""
-        }),
-        headers: { "Content-Type": "application/json" }
-    });
-    const r = await res.json();
-    return r.translatedText;
+        const r = await res.json();
+        return r.translatedText;
+    } catch(e) {
+        // Probably no translation server
+    }
+
+    return text;
 }
 
 
@@ -165,7 +171,7 @@ function osmFilterMapData(data, pos, options) {
             // Ref :https://wiki.openstreetmap.org/wiki/Map_features#
 
             generallyInteresting.forEach((gi) => {
-                if (options.filterByAltitude && gi === 'amenity' && pos.alt > 400) {
+                if (options.filterByAltitude && gi === 'amenity' && pos.altitude > 400) {
                     // nop
                 } else if (item.tags[gi]) {
                     description = `${gi}: ${item.tags[gi]}`;

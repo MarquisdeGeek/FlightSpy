@@ -39,9 +39,9 @@ class FlightCache extends BasicCache {
         let results = [];
         results.push(flight.trail[0]);
     
-        let lastTrailPos = {
-            lat: flight.trail[0].lat,
-            lon: flight.trail[0].lng,
+        let lastTrailPos = { // in a format for GeoDistance
+            lat: flight.trail[0].latitude,
+            lon: flight.trail[0].longitude,
         };
     
         let trailIndex = 0;
@@ -51,9 +51,9 @@ class FlightCache extends BasicCache {
     
             // For distance-based divisions
             if (typeof options.byDistance !== typeof undefined) {
-                const trailPos = {
-                    lat: trailData.lat,
-                    lon: trailData.lng,
+                const trailPos = { // again, a GeoDistance format
+                    lat: trailData.latitude,
+                    lon: trailData.longitude,
                 };
                 const distanceBetween = GeoDistance.default.between(lastTrailPos, trailPos);
     
@@ -69,7 +69,7 @@ class FlightCache extends BasicCache {
     
             // For time-based divisions
             if (typeof options.byTime !== typeof undefined) {
-                let currentTime = trailData.ts;
+                let currentTime = trailData.timestamp;
                 let delta = Math.abs(currentTime - lastTime);// TODO: BUG - unless trail data is reversed
     
                 if (delta >= options.byTime) {
@@ -89,7 +89,7 @@ class FlightCache extends BasicCache {
     
         // Add the human time, here, to all entries
         results = results.map((r) => {
-            r.tst = (new Date(r.ts * 1000).toLocaleString());
+            r.tst = (new Date(r.timestamp * 1000).toLocaleString());
             return r;
         });
     

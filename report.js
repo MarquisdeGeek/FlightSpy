@@ -29,10 +29,12 @@ class Report {
             });
             
             let toShow = await Promise.all(unresolvedPromises);
+            toShow = toShow.filter((show) => typeof show != typeof undefined); // remove any undefineds, which result from removing dupes
             return { datapoint: datapoint, show: toShow };
         });
 
-        return await Promise.all(reportDataPromises);
+        let reportData = await Promise.all(reportDataPromises);
+        return reportData;
     }
 
 
@@ -55,7 +57,7 @@ class Report {
 
             // Show them all
             entry.show.forEach((show, idx) => {
-                // POssible: Show whether they're on the left or right of the plane?
+                   // Possible: Show whether they're on the left or right of the plane?
                 // https://stackoverflow.com/questions/31418567/is-angle-to-the-left-or-right-of-second-angle
                 // let thisBearing = calculateBearing(lastTrailPos, trailPos);
                 console.log(`${idx < lhsHeadings.length ? lhsHeadings[idx] : timeSpaces}${show.name} - ${show.description}`);
@@ -67,8 +69,6 @@ class Report {
             //
             console.log('');
         }
-
-        // return { name: `${interest.name} ${text && text !== interest.name ? '('+text+')' : ''}`, description: interest.description, datapoint: datapoint };
 
     }
 }
